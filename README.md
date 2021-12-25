@@ -11,6 +11,7 @@ First clone the project
 then build and install headers
 
 ```shell
+cd OCLHeaders
 cmake -S . -B build -DCMAKE_INSTALL_PREFIX=$PREFIX/include
 cmake --build build --target install
 ```
