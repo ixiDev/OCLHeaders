@@ -12,6 +12,6 @@ then build and install headers
 
 ```shell
 cd OCLHeaders
-cmake -S . -B build -DCMAKE_INSTALL_PREFIX=$PREFIX/include
+cmake -S . -B build -DCMAKE_INSTALL_PREFIX=$PREFIX
 cmake --build build --target install
 ```
